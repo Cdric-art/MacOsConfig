@@ -87,6 +87,7 @@ ENABLE_CORRECTION="true"
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
+source <(fzf --zsh)
 
 neofetch
 
@@ -120,6 +121,7 @@ alias n="nvim"
 alias ..="cd .."
 alias lg="lazygit"
 alias ls="eza --color=always --long --git --icons=always --no-user --no-permissions"
+alias fvim='nvim $(fzf -m --preview="bat --color=always {}")'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
