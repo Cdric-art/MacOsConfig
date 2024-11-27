@@ -32,8 +32,7 @@ do
 done
 
 sketchybar --add item space_separator_left left \
-           --set space_separator_left icon=~./ \
-                                 icon.font="$FONT:Bold:16.0" \
+           --set space_separator_left icon.font="$FONT:Bold:16.0" \
                                  background.padding_left=16 \
                                  background.padding_right=10 \
                                  label.drawing=off \

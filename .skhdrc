@@ -1,0 +1,7 @@
+# APPS #
+#
+alt - t : open -a 'WezTerm'
+alt - s : open -a 'Safari'
+alt - z : open -a 'Zen Browser'
+alt - m : open -a "Mail"
+alt - w : open -a "WebStorm"

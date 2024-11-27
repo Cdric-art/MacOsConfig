@@ -57,7 +57,6 @@ source "$ITEM_DIR/time.sh"
 source "$ITEM_DIR/battery.sh"
 source "$ITEM_DIR/sound.sh"
 source "$ITEM_DIR/wifi.sh"
-source "$ITEM_DIR/ram.sh"
 source "$ITEM_DIR/cpu.sh"
 
 sketchybar --update
